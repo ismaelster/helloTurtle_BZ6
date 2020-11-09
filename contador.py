@@ -5,7 +5,12 @@ def sumaTodos(limitTo):
     
     return resultado
 
-'''int(Numero) = input("Dame un número para contar: ")
-numero = int(strNumero)'''
+def sumaTodosLosCuadrados(limitTo):
+    resultado = 0
+    for i in range(limitTo + 1):
+        resultado += i*i
+    
+    return resultado
 
-print (sumaTodos(100))
+print(sumaTodos(100))
+print(sumaTodosLosCuadrados(3))
